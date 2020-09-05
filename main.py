@@ -29,23 +29,23 @@ gradepoint2 = input("Enter your course 2 letter grade: ")
 credit2 = input("Enter your course 2 credit: ")
 
 if gradepoint2 == "A":
-  print(f"Grade point for course 1 is: 4.0")
+  print(f"Grade point for course 2 is: 4.0")
 elif gradepoint2 == "A-":
-  print(f"Grade point for course 1 is: 3.67")
+  print(f"Grade point for course 2 is: 3.67")
 elif gradepoint2 == "B+":
-  print(f"Grade point for course 1 is: 3.33")
+  print(f"Grade point for course 2 is: 3.33")
 elif gradepoint2 == "B":
-  print(f"Grade point for course 1 is: 3.0")
+  print(f"Grade point for course 2 is: 3.0")
 elif gradepoint2 == "B-":
-  print(f"Grade point for course 1 is: 2.67")
+  print(f"Grade point for course 2 is: 2.67")
 elif gradepoint2 == "C+":
- print(f"Grade point for course 1 is: 2.33")
+ print(f"Grade point for course 2 is: 2.33")
 elif gradepoint2 == "C":
- print(f"Grade point for course 1 is: 2.0")
+ print(f"Grade point for course 2 is: 2.0")
 elif gradepoint2 == "D":
-  print(f"Grade point for course 1 is: 1.0")
+  print(f"Grade point for course 2 is: 1.0")
 elif gradepoint2 == "F":
-  print(f"Grade point for course 1 is: 0.0")
+  print(f"Grade point for course 2 is: 0.0")
 else:
     print(f"0.0")
 
@@ -54,23 +54,23 @@ gradepoint3 = input("Enter your course 3 letter grade: ")
 credit3 = input("Enter your course 3 credit: ")
 
 if gradepoint3 == "A":
-  print(f"Grade point for course 1 is: 4.0")
+  print(f"Grade point for course 3 is: 4.0")
 elif gradepoint3 == "A-":
-  print(f"Grade point for course 1 is: 3.67")
+  print(f"Grade point for course 3 is: 3.67")
 elif gradepoint3 == "B+":
-  print(f"Grade point for course 1 is: 3.33")
+  print(f"Grade point for course 3 is: 3.33")
 elif gradepoint3 == "B":
-  print(f"Grade point for course 1 is: 3.0")
+  print(f"Grade point for course 3 is: 3.0")
 elif gradepoint3 == "B-":
-  print(f"Grade point for course 1 is: 2.67")
+  print(f"Grade point for course 3 is: 2.67")
 elif gradepoint3 == "C+":
- print(f"Grade point for course 1 is: 2.33")
+ print(f"Grade point for course 3 is: 2.33")
 elif gradepoint3 == "C":
- print(f"Grade point for course 1 is: 2.0")
+ print(f"Grade point for course 3 is: 2.0")
 elif gradepoint3 == "D":
-  print(f"Grade point for course 1 is: 1.0")
+  print(f"Grade point for course 3 is: 1.0")
 elif gradepoint3 == "F":
-  print(f"Grade point for course 1 is: 0.0")
+  print(f"Grade point for course 3 is: 0.0")
 else:
     print(f"0.0")
 
