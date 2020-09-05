@@ -80,5 +80,5 @@ elif gradepoint3 == "F":
 else:
     print(f"ERROR")
 
-gpa = points / credits*4
+gpa = points / (credits*4)
 print(f"Your GPA is: {gpa}")
