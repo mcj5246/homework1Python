@@ -1,11 +1,6 @@
 # Author: Miles Johnson mcj5246@psu.edu
 
-gradepoint1 = input("Enter your course 1 letter grade: ")
-gradepoint2 = input("Enter your course 2 letter grade: ")
-gradepoint3 = input("Enter your course 3 letter grade: ")
-
 points = 0
-credits = 3
 
 A = 4.0
 A_min = 3.67
@@ -17,68 +12,80 @@ C = 2.0
 D = 1.0
 F = 0.0
 
+gradepoint1 = input("Enter your course 1 letter grade: ")
+credit1 = input("Enter your course 1 credit: ")
+
 if gradepoint1 == "A":
-  points += A
+  print(f"Grade point for course 1 is: 4.0")
 elif gradepoint1 == "A-":
-  points += A_min
+  print(f"Grade point for course 1 is: 3.67")
 elif gradepoint1 == "B+":
-  points += B_plus
+  print(f"Grade point for course 1 is: 3.33")
 elif gradepoint1 == "B":
-  points += B
+  print(f"Grade point for course 1 is: 3.0")
 elif gradepoint1 == "B-":
-  points += B_min
+  print(f"Grade point for course 1 is: 2.67")
 elif gradepoint1 == "C+":
-  points += C_plus
+ print(f"Grade point for course 1 is: 2.33")
 elif gradepoint1 == "C":
-  points += C
+ print(f"Grade point for course 1 is: 2.0")
 elif gradepoint1 == "D":
-  points += D
+  print(f"Grade point for course 1 is: 1.0")
 elif gradepoint1 == "F":
-  points += F
+  print(f"Grade point for course 1 is: 0.0")
 else:
-    print(f"ERROR")
+    print(f"0.0")
+
+
+gradepoint2 = input("Enter your course 2 letter grade: ")
+credit2 = input("Enter your course 2 credit: ")
 
 if gradepoint2 == "A":
-  points += A
+  print(f"Grade point for course 1 is: 4.0")
 elif gradepoint2 == "A-":
-  points += A_min
+  print(f"Grade point for course 1 is: 3.67")
 elif gradepoint2 == "B+":
-  points += B_plus
+  print(f"Grade point for course 1 is: 3.33")
 elif gradepoint2 == "B":
-  points += B
+  print(f"Grade point for course 1 is: 3.0")
 elif gradepoint2 == "B-":
-  points += B_min
+  print(f"Grade point for course 1 is: 2.67")
 elif gradepoint2 == "C+":
-  points += C_plus
+ print(f"Grade point for course 1 is: 2.33")
 elif gradepoint2 == "C":
-  points += C
+ print(f"Grade point for course 1 is: 2.0")
 elif gradepoint2 == "D":
-  points += D
+  print(f"Grade point for course 1 is: 1.0")
 elif gradepoint2 == "F":
-  points += F
+  print(f"Grade point for course 1 is: 0.0")
 else:
-    print(f"ERROR")
+    print(f"0.0")
+
+
+gradepoint3 = input("Enter your course 3 letter grade: ")
+credit3 = input("Enter your course 3 credit: ")
 
 if gradepoint3 == "A":
-  points += A
+  print(f"Grade point for course 1 is: 4.0")
 elif gradepoint3 == "A-":
-  points += A_min
+  print(f"Grade point for course 1 is: 3.67")
 elif gradepoint3 == "B+":
-  points += B_plus
+  print(f"Grade point for course 1 is: 3.33")
 elif gradepoint3 == "B":
-  points += B
+  print(f"Grade point for course 1 is: 3.0")
 elif gradepoint3 == "B-":
-  points += B_min
+  print(f"Grade point for course 1 is: 2.67")
 elif gradepoint3 == "C+":
-  points += C_plus
+ print(f"Grade point for course 1 is: 2.33")
 elif gradepoint3 == "C":
-  points += C
+ print(f"Grade point for course 1 is: 2.0")
 elif gradepoint3 == "D":
-  points += D
+  print(f"Grade point for course 1 is: 1.0")
 elif gradepoint3 == "F":
-  points += F
+  print(f"Grade point for course 1 is: 0.0")
 else:
-    print(f"ERROR")
+    print(f"0.0")
 
-gpa = points / (credits*4)
-print(f"Your GPA is: {gpa}")
+
+GPA = (gradepoint1 * credit1 + gradepoint2 * credit2 + gradepoint3 * credit3) / (credit1 + credit2 + credit3)
+print(f"Your GPA is: {GPA}")
