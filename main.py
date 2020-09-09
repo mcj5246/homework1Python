@@ -29,11 +29,9 @@ elif gradepoint1 == "C":
 elif gradepoint1 == "D":
   gradepoint1=1.0
   print(f"Grade point for course 1 is: 1.0")
-elif gradepoint1 == "F":
+else:
   gradepoint1=0.0
   print(f"Grade point for course 1 is: 0.0")
-else:
-  print(f"0.0")
 
 
 gradepoint2 = input("Enter your course 2 letter grade: ")
@@ -63,11 +61,9 @@ elif gradepoint2 == "C":
 elif gradepoint2 == "D":
   gradepoint2=1.0
   print(f"Grade point for course 2 is: 1.0")
-elif gradepoint2 == "F":
+else:
   gradepoint2=0.0
   print(f"Grade point for course 2 is: 0.0")
-else:
-  print(f"0.0")
 
 
 gradepoint3 = input("Enter your course 3 letter grade: ")
@@ -97,11 +93,9 @@ elif gradepoint3 == "C":
 elif gradepoint3 == "D":
   gradepoint3=1.0
   print(f"Grade point for course 3 is: 1.0")
-elif gradepoint3 == "F":
+else:
   gradepoint3=0.0
   print(f"Grade point for course 3 is: 0.0")
-else:
-  print(f"0.0")
 
 gradepoint1=float(gradepoint1)
 gradepoint2=float(gradepoint2)
