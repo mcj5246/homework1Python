@@ -3,8 +3,6 @@
 gradepoint1 = input("Enter your course 1 letter grade: ")
 credit1 = input("Enter your course 1 credit: ")
 
-
-
 if gradepoint1 == "A":
   gradepoint1=4.0
   print(f"Grade point for course 1 is: 4.0")
